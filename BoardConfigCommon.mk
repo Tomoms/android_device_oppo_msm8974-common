@@ -121,6 +121,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8974
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
+# LMKD
+TARGET_LMKD_STATS_LOG := true
+
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
