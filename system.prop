@@ -50,6 +50,12 @@ media.aac_51_output_enabled=true
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
 
+# Play store
+ro.com.google.clientidbase.am=android-oneplus
+ro.com.google.clientidbase.gmm=android-oneplus
+ro.com.google.clientidbase.ms=android-oneplus
+ro.com.google.clientidbase.yt=android-oneplus
+
 # Network
 persist.data.netmgrd.qos.enable=true
 persist.data.tcpackprio.enable=true
