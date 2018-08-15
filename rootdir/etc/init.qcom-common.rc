@@ -111,6 +111,9 @@ on post-fs
     # Start devices by sysfs trigger
     start devstart_sh
 
+    # Allow writing to the kernel trace log.
+    chmod 0222 /sys/kernel/debug/tracing/trace_marker
+
 on post-fs-data
     # Create OPPO NV item directory
     mkdir /data/opponvitems 0771 radio radio
