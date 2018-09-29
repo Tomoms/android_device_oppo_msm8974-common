@@ -116,4 +116,4 @@ on property:dev.bootcomplete=1
     rm /data/system/perfd/default_values
     setprop sys.io.scheduler "maple"
     setprop vendor.post_boot.parsed 1
-    start mpdecision
+    write /sys/kernel/msm_mpdecision/conf/enabled 1
