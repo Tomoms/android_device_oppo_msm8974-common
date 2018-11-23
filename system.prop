@@ -60,3 +60,11 @@ wifi.interface=wlan0
 persist.bt.enableAptXHD=true
 persist.service.btui.use_aptx=1
 persistent.bt.a2dp_offload_cap=sbc-aptx-aptXHD
+
+# ART
+dalvik.vm.dex2oat-swap=false
+dalvik.vm.execution-mode=int:fast
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapminfree=4m
