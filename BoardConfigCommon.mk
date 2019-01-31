@@ -160,5 +160,11 @@ WPA_SUPPLICANT_VERSION           := VER_0_8_X
 # Jemalloc
 MALLOC_SVELTE := true
 
+# Don't build debug for host or device
+ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_DEBUG := false
+
 # Inherit from the proprietary version
 include vendor/oppo/msm8974-common/BoardConfigVendor.mk
