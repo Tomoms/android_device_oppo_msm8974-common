@@ -157,5 +157,8 @@ WIFI_DRIVER_FW_PATH_STA          := "sta"
 WIFI_DRIVER_FW_PATH_AP           := "ap"
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
+# Jemalloc
+MALLOC_SVELTE := true
+
 # Inherit from the proprietary version
 include vendor/oppo/msm8974-common/BoardConfigVendor.mk
