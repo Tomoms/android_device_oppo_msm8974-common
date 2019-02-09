@@ -180,6 +180,10 @@ ART_BUILD_HOST_DEBUG := false
 WITH_DEXPREOPT := true
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 WITH_DEXPREOPT_DEBUG_INFO := false
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+
+# No debugging
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Inherit from the proprietary version
 include vendor/oppo/msm8974-common/BoardConfigVendor.mk
