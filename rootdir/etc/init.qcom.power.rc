@@ -39,7 +39,7 @@ on enable-low-power
     write /sys/devices/system/cpu/cpufreq/impulse/hispeed_freq 1190400
     write /sys/devices/system/cpu/cpufreq/impulse/io_is_busy 1
     write /sys/devices/system/cpu/cpufreq/impulse/powersave_bias 1
-    write /sys/devices/system/cpu/cpufreq/impulse/target_loads "85 1500000:90 1800000:70"
+    write /sys/devices/system/cpu/cpufreq/impulse/target_loads "1 200000:37 400000:48 533333:56 800000:63 998400:69 1094400:77 1152000:83 1209600:90"
     write /sys/devices/system/cpu/cpufreq/impulse/min_sample_time 40000
     write /sys/devices/system/cpu/cpufreq/impulse/timer_rate 30000
 
