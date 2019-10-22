@@ -153,8 +153,6 @@ PRODUCT_PACKAGES += \
 
 # Misc dependency packages
 PRODUCT_PACKAGES += \
-    ebtables \
-    ethertypes \
     libcnefeatureconfig \
     libnl_2 \
     libtinyxml \
