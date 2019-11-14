@@ -46,7 +46,7 @@ BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01e00000
 LZMA_RAMDISK_TARGETS := [boot,recovery]
 TARGET_KERNEL_ARCH := arm
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-gcc-9.x/bin
+KERNEL_TOOLCHAIN := /run/media/tfonda/HDD/android/pie/prebuilts/gcc/linux-x86/arm/arm-eabi-gcc-9.x/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # ANT+
