@@ -98,7 +98,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-service \
     gps.msm8974
 
-# IRQ Balance
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/flp.conf:system/etc/flp.conf \
     $(LOCAL_PATH)/gps/gps.conf:system/etc/gps.conf \
@@ -154,6 +153,8 @@ PRODUCT_PACKAGES += \
 
 # Misc dependency packages
 PRODUCT_PACKAGES += \
+    ebtables \
+    ethertypes \
     libcnefeatureconfig \
     libnl_2 \
     libtinyxml \
