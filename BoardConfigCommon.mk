@@ -46,6 +46,8 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01e00000
 LZMA_RAMDISK_TARGETS := [boot,recovery]
+KERNEL_TOOLCHAIN := prebuilts/gcc/linux-x86/arm/arm32-gcc/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
