@@ -93,8 +93,8 @@ WITH_DEXPREOPT_DEBUG_INFO := false
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 
-# Exclude serif fonts for saving system.img size.
-EXCLUDE_SERIF_FONTS := true
+# Exclude lots of fonts for saving system.img size.
+MINIMAL_FONT_FOOTPRINT := true
 
 # Filesystem
 BOARD_FLASH_BLOCK_SIZE := 131072
