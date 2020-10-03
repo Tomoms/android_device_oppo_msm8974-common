@@ -216,12 +216,6 @@ service qcamerasvr /system/vendor/bin/mm-qcamera-daemon
 on property:init.svc.qcamerasvr=running
     restart cameraserver
 
-service mpdecision /system/vendor/bin/mpdecision --avg_comp
-    class main
-    user root
-    group root readproc
-    disabled
-
 service thermal-engine /system/vendor/bin/thermal-engine
     class main
     user root
