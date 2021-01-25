@@ -86,6 +86,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
 
+# F-Droid
+PRODUCT_PACKAGES += \
+    F-DroidPrivilegedExtension
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service.software
