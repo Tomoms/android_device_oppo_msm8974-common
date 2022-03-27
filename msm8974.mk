@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
     charger_res_images
 WITH_LINEAGE_CHARGER := false
 
+# Configstore
+PRODUCT_PACKAGES += \
+    android.hardware.configstore@1.1-service
+
 # CryptfsHW
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
