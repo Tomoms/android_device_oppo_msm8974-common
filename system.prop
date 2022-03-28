@@ -70,10 +70,11 @@ ro.qualcomm.perf.cores_online=2
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # Radio
+persist.vendor.radio.rat_on=combine
 ro.telephony.call_ring.multiple=0
 ro.telephony.default_network=9
 
-ro.use_data_netmgrd=true
+ro.vendor.use_data_netmgrd=true
 
 telephony.lteOnGsmDevice=1
 
