@@ -47,6 +47,11 @@ debug.sf.latch_unsignaled=1
 persist.hwc.mdpcomp.enable=true
 ro.opengles.version=196608
 
+# IORap
+ro.iorapd.enable=true
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
+
 # Media
 debug.stagefright.ccodec=0
 mm.enable.smoothstreaming=true
