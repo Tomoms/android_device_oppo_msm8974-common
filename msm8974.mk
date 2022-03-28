@@ -213,6 +213,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio.config@1.0-service
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.qcom-common.rc \
