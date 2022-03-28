@@ -52,6 +52,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 KERNEL_TOOLCHAIN := /mnt/nvme/bacon/lineage-18.1/prebuilts/gcc/linux-x86/arm/arm32-gcc/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+TARGET_KERNEL_CLANG_COMPILE := false
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
