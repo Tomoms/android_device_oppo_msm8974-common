@@ -136,20 +136,11 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.nxp.hardware.nfc</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>INqNfc</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.nxp.nxpnfclegacy</name>
-        <transport>hwbinder</transport>
+        <name>android.hardware.nfc</name>
+        <transport arch="32">passthrough</transport>
         <version>1.0</version>
         <interface>
-            <name>INxpNfcLegacy</name>
+            <name>INfc</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -176,15 +167,6 @@
             <name>IOemHook</name>
             <instance>slot1</instance>
             <instance>slot2</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.nfc</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>INfc</name>
-            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl">
