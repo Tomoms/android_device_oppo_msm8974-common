@@ -48,7 +48,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01e00000
 BOARD_RAMDISK_USE_XZ := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
-KERNEL_TOOLCHAIN := /home/tfonda/devel/18.1/prebuilts/gcc/linux-x86/arm/arm32-gcc/bin
+KERNEL_TOOLCHAIN := /mnt/data/android/eva-gcc-arm/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # ANT+
